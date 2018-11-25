@@ -9,7 +9,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class CityFragment extends Fragment {
-    
+
     public CityFragment() {
     }
 
