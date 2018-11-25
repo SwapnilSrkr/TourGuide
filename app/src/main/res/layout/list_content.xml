@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/five">
+
+    <ImageView
+        android:id="@+id/content_image"
+        style="@style/contentstyle"
+        android:layout_height="@dimen/onefifty"
+        android:layout_marginTop="@dimen/sixteen"
+        android:src="@drawable/india_flag" />
+
+    <TextView
+        android:id="@+id/content_name"
+        style="@style/contentstyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteen"
+        android:layout_marginRight="@dimen/fifteen"
+        android:layout_marginLeft="@dimen/fifteen"
+        android:gravity="fill"
+        android:text="Content name" />
+</LinearLayout>
